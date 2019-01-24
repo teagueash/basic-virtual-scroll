@@ -1,0 +1,22 @@
+.scroll-container {
+  padding-top: 45px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.viewport {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 5px;
+  overflow: auto;
+  position: relative;
+  height: inherit;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list-container {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
