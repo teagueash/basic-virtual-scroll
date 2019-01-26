@@ -7,7 +7,7 @@ Basic virtual scroller to efficiently render large datasets
 `ScrollContainer` component takes 4 required and 1 option prop:
 
 ```
-import ScrollContainer from "@teagueash/basic-virtual-scroll";
+import ScrollContainer from "...";
 
 class Container extends React.Component {
   ...
