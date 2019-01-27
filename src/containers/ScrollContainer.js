@@ -20,7 +20,7 @@ class ScrollContainer extends Component {
       style: {
         elementWidth: 0,
         elementHeight: 0,
-        offset: 5
+        offset: 30
       },
       numberVisible: 0
     };

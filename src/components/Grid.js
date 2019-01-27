@@ -25,11 +25,11 @@ const Grid = ({
 
   return (
     <div className="grid">
-      {batch.map((element, localIndex) => {
-        const { index } = element;
+      {batch.map(element => {
+        const { index, background } = element;
         const row = Math.floor(index / columnCount);
         const column = index % columnCount;
-
+        console.log(background);
         return (
           <div
             key={index}
@@ -37,7 +37,8 @@ const Grid = ({
               top: `${row * (elementHeight + offset)}px`,
               left: `${column * (elementWidth + offset)}px`,
               width: `${elementWidth}px`,
-              height: `${elementHeight}px`
+              height: `${elementHeight}px`,
+              background: `${background}`
             }}
             className="card"
           >

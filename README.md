@@ -4,7 +4,7 @@ Basic virtual scroller to efficiently render large datasets
 
 ## Getting Started
 
-`ScrollContainer` component takes 4 required and 1 option prop:
+`ScrollContainer` component takes 4 required and 1 optional prop:
 
 ```
 import ScrollContainer from "...";
