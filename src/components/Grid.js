@@ -21,7 +21,6 @@ const Grid = ({
 }) => {
   const { offset, elementHeight, elementWidth } = style;
   const batch = data.slice(startIndex, endIndex);
-  console.log("rendering grid");
 
   return (
     <div className="grid">

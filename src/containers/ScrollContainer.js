@@ -153,7 +153,6 @@ class ScrollContainer extends Component {
   };
 
   handleResize = () => {
-    console.log("resizing");
     this.setConfig();
   };
 
@@ -203,7 +202,6 @@ class ScrollContainer extends Component {
       style.offset,
       columnCount
     );
-    console.log("rendering");
 
     return (
       <div className="viewport" ref={this._viewPort}>
