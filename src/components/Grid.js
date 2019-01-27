@@ -29,7 +29,7 @@ const Grid = ({
         const { index, background } = element;
         const row = Math.floor(index / columnCount);
         const column = index % columnCount;
-        console.log(background);
+
         return (
           <div
             key={index}
