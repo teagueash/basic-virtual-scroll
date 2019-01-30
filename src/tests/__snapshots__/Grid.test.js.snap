@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`will render Grid Component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Grid
+    bufferCount={0}
+    columnCount={1}
+    data={
+      Array [
+        Object {
+          "background": "black",
+          "index": 0,
+          "text": "lorem ipsum",
+        },
+      ]
+    }
+    endIndex={1}
+    range={1}
+    renderItem={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "background": "black",
+              "index": 0,
+              "text": "lorem ipsum",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    startIndex={0}
+    style={
+      Object {
+        "elementHeight": 300,
+        "elementWidth": 300,
+        "offset": 5,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="card"
+          style={
+            Object {
+              "background": "black",
+              "height": "300px",
+              "left": "0px",
+              "top": "0px",
+              "width": "300px",
+            }
+          }
+        />,
+      ],
+      "className": "grid",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "card",
+          "style": Object {
+            "background": "black",
+            "height": "300px",
+            "left": "0px",
+            "top": "0px",
+            "width": "300px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="card"
+            style={
+              Object {
+                "background": "black",
+                "height": "300px",
+                "left": "0px",
+                "top": "0px",
+                "width": "300px",
+              }
+            }
+          />,
+        ],
+        "className": "grid",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "card",
+            "style": Object {
+              "background": "black",
+              "height": "300px",
+              "left": "0px",
+              "top": "0px",
+              "width": "300px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

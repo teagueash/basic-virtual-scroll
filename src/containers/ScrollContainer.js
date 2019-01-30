@@ -194,7 +194,7 @@ class ScrollContainer extends Component {
   };
 
   render() {
-    const { style, numberVisible, start, end } = this.state;
+    const { style, start, end } = this.state;
     const { data, columnCount } = this.props;
     const height = this.getContainerHeight(
       data.length,
@@ -212,7 +212,6 @@ class ScrollContainer extends Component {
               startIndex={start}
               endIndex={end}
               style={style}
-              numberVisible={numberVisible}
             />
           )}
         </div>

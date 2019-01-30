@@ -53,7 +53,6 @@ Grid.propTypes = {
   data: PropTypes.array.isRequired,
   startIndex: PropTypes.number.isRequired,
   endIndex: PropTypes.number.isRequired,
-  numberVisible: PropTypes.number.isRequired,
   style: PropTypes.object.isRequired,
   renderItem: PropTypes.func.isRequired
 };
