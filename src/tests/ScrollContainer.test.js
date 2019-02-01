@@ -19,7 +19,7 @@ it("renders ScrollContainer without crashing", () => {
       <ScrollContainer
         data={mockProps.data}
         range={mockProps.range}
-        renderItem={mockProps.mockRender}
+        renderItem={mockRender}
         columnCount={mockProps.columnCount}
         bufferCount={mockProps.bufferCount}
       />

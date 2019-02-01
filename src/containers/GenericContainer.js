@@ -38,7 +38,7 @@ class GenericContainer extends Component {
             count: 1,
             units: "sentences",
             sentenceLowerBound: 1,
-            sentenceUpperBound: 4
+            sentenceUpperBound: 2
           }),
           background: sample(gradients)
         };
