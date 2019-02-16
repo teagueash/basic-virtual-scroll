@@ -1,6 +1,11 @@
+@media (max-width: 450px) {
+  .scroll-container {
+    font-size: 0.5em !important;
+  }
+}
+
 .scroll-container {
   height: auto;
-  margin: 0 auto;
   font-size: 1em;
   font-weight: 800;
 }
@@ -8,6 +13,7 @@
 .viewport {
   box-sizing: border-box;
   width: 100%;
+  margin: 0 auto;
   padding-top: 5px;
   overflow: auto;
   position: relative;

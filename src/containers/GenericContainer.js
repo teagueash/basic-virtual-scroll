@@ -44,9 +44,7 @@ class GenericContainer extends Component {
         };
       });
 
-    this.state = {
-      range: this.list.length - 1
-    };
+    this.range = this.list.length - 1;
   }
 
   /**
@@ -60,14 +58,12 @@ class GenericContainer extends Component {
   );
 
   render() {
-    const { range } = this.state;
-
     return (
       <>
         <div className="scroll-container" style={{ height: this.height }}>
           <ScrollContainer
             data={this.list}
-            range={range}
+            range={this.range}
             renderItem={this.renderItem}
             columnCount={3}
             bufferCount={1}
